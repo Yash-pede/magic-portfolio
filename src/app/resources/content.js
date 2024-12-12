@@ -7,9 +7,9 @@ const person = {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Design Engineer',
-    avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    avatar:    '/images/custom/avatar.jpg',
+    location:  'Asia/Kolkata',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Hindi', 'Marathi']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -181,32 +181,32 @@ const gallery = {
     // Images from https://pexels.com
     images: [
         { 
-            src: '/images/gallery/img-01.jpg', 
+            src: '/images/custom/gallery/1.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-02.jpg', 
+            src: '/images/custom/gallery/2.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },
         { 
-            src: '/images/gallery/img-03.jpg', 
+            src: '/images/custom/gallery/3.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
         { 
-            src: '/images/gallery/img-04.jpg', 
+            src: '/images/custom/gallery/4.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },
         { 
-            src: '/images/gallery/img-05.jpg', 
+            src: '/images/custom/gallery/5.jpg', 
             alt: 'image',
             orientation: 'horizontal'
         },
         { 
-            src: '/images/gallery/img-06.jpg', 
+            src: '/images/custom/gallery/6.jpg', 
             alt: 'image',
             orientation: 'vertical'
         },
